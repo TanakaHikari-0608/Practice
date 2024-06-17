@@ -12,7 +12,7 @@ int main()
 
 	int na;
 	printf("óvëfêî:");
-	scanf("%d", &na);
+	scanf_s("%d", &na);
 
 	int* a = (int*)calloc(na, sizeof(int));
 	if (a == nullptr) {
