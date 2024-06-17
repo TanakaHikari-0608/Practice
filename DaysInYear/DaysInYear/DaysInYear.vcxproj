@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4d0a9849-46ca-45b4-982a-1f2c2b735d41}</ProjectGuid>
-    <RootNamespace>PrimeNumberImprovement2</RootNamespace>
+    <ProjectGuid>{ea77a0fc-06e1-4b02-87a0-92ff67dd01cc}</ProjectGuid>
+    <RootNamespace>DaysInYear</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="PrimeNumber_Improvement2.cpp" />
+    <ClCompile Include="DaysInYear.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
