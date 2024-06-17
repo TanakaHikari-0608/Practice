@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bef3b84c-9a67-4e45-977a-7ea2fed278aa}</ProjectGuid>
-    <RootNamespace>ArraySampleInitialize</RootNamespace>
+    <ProjectGuid>{32b13966-aaa5-4f23-9d89-d960615d1c00}</ProjectGuid>
+    <RootNamespace>ArraySample</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ArraySample_Initialize.cpp" />
+    <ClCompile Include="ArraySample.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
