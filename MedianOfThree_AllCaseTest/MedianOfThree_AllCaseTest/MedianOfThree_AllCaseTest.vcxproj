@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6b378bef-53db-4205-b0c1-9a980d40f83b}</ProjectGuid>
-    <RootNamespace>MinOfThreeYarinaosi</RootNamespace>
+    <ProjectGuid>{f8baffd2-5118-458e-9b47-0b7f980170a7}</ProjectGuid>
+    <RootNamespace>MedianOfThreeAllCaseTest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MinOfThree.cpp" />
+    <ClCompile Include="MedianOfThree_AllCaseTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
