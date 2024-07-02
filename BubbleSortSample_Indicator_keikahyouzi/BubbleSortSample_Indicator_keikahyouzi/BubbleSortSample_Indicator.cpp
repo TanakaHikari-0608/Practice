@@ -43,9 +43,7 @@ int main()
 }
 
 // この関数を修正コーディングしてください。
-
 // 比較回数と交換回数の変数は、適当なところに宣言してください。
-// 
 void BubbleSort(int array[], int arraySize)
 {
 	int comparisonCount = 0;
