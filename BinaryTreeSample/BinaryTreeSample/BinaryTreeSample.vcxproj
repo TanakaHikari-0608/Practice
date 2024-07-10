@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{cf3fab53-728c-4fcb-90e9-6bce8d068d29}</ProjectGuid>
-    <RootNamespace>演習23</RootNamespace>
+    <ProjectGuid>{bbf1e146-7b23-4834-ad67-a8d939cfa396}</ProjectGuid>
+    <RootNamespace>BinaryTreeSample</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="演習2-3.cpp" />
+    <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="member.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BinaryTree.cpp" />
+    <ClCompile Include="BinaryTreeSample.cpp" />
+    <ClCompile Include="member.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
